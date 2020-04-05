@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  background-color: #75b3f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.counter-section {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.write-box {
+  display: flex;
+}
+
+.counter-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
